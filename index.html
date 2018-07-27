@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Invie - tus mejores guitarras!!</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+    <link rel="stylesheet" href="css/invie.css">
+  </head>
+  <body>
+    <section id="portada" class="portada background"> <!--portada-->
+      <header id="header" class="header contenedor"> <!--header-->
+        <figure class="logotipo"> <!--logotipo-->
+          <img src="images/invie.png" widht="186" height="60" alt="Invie logotipo">
+        </figure>
+        <nav class="menu"> <!--menu-->
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="index.html#guitarra">Guitarras</a>
+          </li>
+          <li>
+            <a href="precios.html">Precios</a>
+          </li>
+        </nav>
+      </header>
+    <div class="contenedor">
+      <h1 class="titulo">Guitarras <span>Invie</span>sibles</h1> <!-- titulo -->
+      <h3 class="title-a">Sé la estrella de rock que siempre quisistes ser</h3> <!-- resumen -->
+      <a class="boton" href="#guitarra">Conoce más</a> <!-- boton -->
+    </div>
+    </section>
+    <section id="guitarra" class="guitarra"> <!--guitarra-->
+      <h2>Nuestras guitarras</h2> <!-- titulo -->
+      <article class="guitarra2"> <!-- guitarra 1 -->
+        <img src="images/invie-acustica.png" width="400" alt="Guitarra Invie Acustica" class="derecha"/>
+        <h3 class="title-b">Invie acustica</h3>
+        <lo>
+          <li>Estilo vintage</li>
+          <li>Madera pura</li>
+          <li>Incluye estuche invisible de aluminio</li>
+        </lo>
+      </article>
+      <article class="guitarra2"> <!-- guitarra 1 -->
+        <img src="images/invie-classic.png" width="400" alt="Guitarra Invie Classic" class="izquierda"/>
+        <h3 class="title-b">Invie classic</h3>
+        <lo class="lista">
+          <li>Estilo vintage</li>
+          <li>Liviana</li>
+          <li>Inicia tu camino como rockstar</li>
+        </lo>
+      </article>
+      <!-- guitarra 2 -->
+    </section>
+    <footer class="footer">
+      <div class="contenedor">
+      <div class="contactos">
+        <img src="images/invie-white.png" alt="logotipo blanco" class="logo"/>
+        <a href="tel:+58-41245625589"><strong>Telefono<strong> <span>0412-45625589<span></a>
+        <a href="mailto:gianluigilopezlf@gmail.com"><strong>E-mail</strong> <span>gianluigilopezlf@gmail.com</span></a>
+      </div>
+      <form class="formulario">
+        <div class="col1">
+        <label for="nombre">Nombre</label>
+        <input type="text" required id="nombre">
+        <label for="e-mail">E-mail</label>
+        <input type="email" required id="e-mail">
+        <div>
+        <label for="hombre">
+          <input type="radio" id="hombre" checked name="sexo">Hombre
+        </label>
+        <label for="mujer">
+          <input type="radio" id="mujer" name="sexo">Mujer
+          </label>
+        </div>
+        <div class="intereses">
+          <label for="cotizacion">
+            <input type="checkbox" id="cotizacion" checked name="intereses" value="cotizacion"> Cotización
+          </label>
+          <label for="reclamos">
+            <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+          </label>
+          <label for="comentarios">
+            <input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+          </label>
+          <label for="otros">
+            <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+          </label>
+        </div>
+        </div>
+        </div>
+        <div class="coment">
+          <label for="caja">
+            <textarea name="comentarios" id="caja" cols="25" rows="7"></textarea>
+          </label>
+            <input type="submit" value="Enviar">
+        </div>
+      </form>
+    </div>
+    </footer>
+  </body>
+</html>
